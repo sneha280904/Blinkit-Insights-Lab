@@ -1,28 +1,27 @@
 ---
 
-### `Swiggy-dataset-analysis`  
+### `Blinkit-data-analysis`  
 **`README.md`**
 ```markdown
-# Swiggy Dataset Analysis
+# Blinkit Data Analysis
 
-This project presents a comprehensive analysis of a Swiggy food delivery dataset using Python. It explores trends in restaurant performance, food categories, customer reviews, and pricing strategies.
+This project analyzes Blinkit (formerly Grofers) delivery data using Python to uncover trends in product pricing, delivery patterns, category demand, and customer behavior.
 
 ## Project Objectives
 
-- Analyze the distribution of restaurants by location and rating
-- Examine customer preferences across food categories
-- Identify pricing patterns and discount trends
-- Understand customer feedback through review analysis
+- Analyze product pricing trends across different categories
+- Understand delivery time patterns and logistics efficiency
+- Explore customer preferences and frequently ordered items
+- Visualize patterns in discounts, product demand, and reviews
 
 ## Dataset Overview
 
-The dataset contains:
+The dataset includes the following fields:
 
-- Restaurant names and ratings
-- Location and delivery zones
-- Food categories and price details
-- Reviews and rating counts
-- Delivery charges and offers
+- Product names and categories
+- Price, discount, and rating
+- Delivery times and charges
+- Review count and product details
 
 ## Technologies Used
 
@@ -33,23 +32,23 @@ The dataset contains:
 
 ## Getting Started
 
-1. Clone this repository:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/sneha280904/Swiggy-dataset-analysis.git
+   git clone https://github.com/sneha280904/Blinkit-data-analysis.git
    ```
 
-2. Navigate into the project directory and launch the notebook:
+2. Open the notebook to start the analysis:
    ```bash
-   cd Swiggy-dataset-analysis
-   jupyter notebook Swiggy_Analysis.ipynb
+   cd Blinkit-data-analysis
+   jupyter notebook Blinkit_Analysis.ipynb
    ```
 
 ## Key Insights
 
-- Popular cities and restaurant clusters
-- Category-wise pricing and popularity
-- User sentiment based on reviews
-- High-performing restaurants by rating and price
+- Top-selling product categories
+- Pricing vs. rating trends
+- Delivery time analysis across zones
+- Discount effectiveness and customer ratings
 
 ## License
 
